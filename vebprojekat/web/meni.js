@@ -1,10 +1,13 @@
 $(function (e) {
     $.get({
-        url: 'rest/moja/test/',
+        url: 'rest/korisnik/ulogovanLiSam/',
         dataType: 'json',
         success: function (data) {
-            alert(data.imejl);
-            $("p").append("<br/>" + data.lozinka);
+            if(data) {
+                $("#meni").html("<input type='button' id='mojaStranica'>");
+            }else{
+
+            }
         },
         error: function () {
             alert('yado');

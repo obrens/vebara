@@ -4,6 +4,7 @@ $(function (e) {
         dataType: 'json',
         success: function (data) {
             alert(data.imejl);
+            $("p").append("<br/>" + data.lozinka);
         },
         error: function () {
             alert('yado');
