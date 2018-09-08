@@ -1,7 +1,7 @@
-var vebApp= angular.module('ustanoveApp',['ui.router','ngMaterial', 'jkAngularRatingStars'])
+var vebApp = angular.module('vebApp',['ui.router','ngMaterial', 'jkAngularRatingStars'])
 
 vebApp.config(['$urlRouterProvider','$stateProvider',function($urlRouterProvider, $stateProvider) {
-    $urlRouterProvider.otherwise('/pocetnaNeprijavljeni');
+    $urlRouterProvider.otherwise('/login');
     $stateProvider
         .state('login',{
             url:'/login',

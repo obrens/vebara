@@ -2,11 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Naslovnica</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script type="text/javascript" src="index.js"></script>
+	<title>Index</title>
+
+	<script data-require="angular.js@*" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+
 </head>
-<body>
-<p>db jaja</p>
+<body >
+
+<div class="container" ng-app="vebApp">
+	<div ui-view></div>
+</div>
+
+<script src="app.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+<script src="poluPages/login.js"></script>
+
 </body>
 </html>
