@@ -9,7 +9,6 @@ public class Korisnik {
 	private String lozinka;
 	private String ime;
 	private String prezime;
-	private String uloga;
 	private int telefon;
 	private String imejl;
 	private String datumRegistracije;
@@ -56,14 +55,6 @@ public class Korisnik {
 	
 	public void setPrezime(String prezime) {
 		this.prezime = prezime;
-	}
-	
-	public String getUloga() {
-		return uloga;
-	}
-	
-	public void setUloga(String uloga) {
-		this.uloga = uloga;
 	}
 	
 	public int getTelefon() {

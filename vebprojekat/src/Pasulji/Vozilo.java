@@ -1,6 +1,7 @@
 package Pasulji;
 
 public class Vozilo {
+	private int id;
 	private String marka;
 	private String model;
 	public enum TipVozila {Bicikl, Skuter, Auto}
